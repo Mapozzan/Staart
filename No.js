@@ -1,4 +1,7 @@
-//Lista Encadeada Simples
+//Aprender a estrutura de uma Lista Encadeada Simples 
+
+//Este arquivo js foi usado para pratica de git e github 
+
 
 class No {
   constructor(elemento) {
