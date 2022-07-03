@@ -37,12 +37,12 @@ const copyFileNonBlocking = (source, dest) => {
     console.log('Começou a copia non-blocking')
 
     readFile(source, (_err, data) => {  
-        console.log('Terminou de Ler non-blocking')
+        console.log('> Terminou de Ler non-blocking')
         writeFile(dest,data, (_err) => {
             
-            console.log('Terminou de escrever non-blocking')
+            console.log('>> Terminou de escrever non-blocking')
 
-            logDuration('copyFileNonBlocking',startTime)
+            logDuration('>> copyFileNonBlocking',startTime)
         })
     })
 }
