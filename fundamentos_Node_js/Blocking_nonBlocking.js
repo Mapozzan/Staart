@@ -54,3 +54,4 @@ copyFileNonBlocking(sourcePath, destPathNonBlocking)
 
 console.log('Terminou mesmo?')
 console.log('Continuando')
+
