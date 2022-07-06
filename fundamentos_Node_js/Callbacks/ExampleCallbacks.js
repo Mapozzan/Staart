@@ -5,7 +5,7 @@ const {
         listPosts,
         getPost,
     }
-} = require('./helpers/social-media.js')
+} = require('../helpers/social-media.js')
 
 const firstPost = (username, password, callback) => {
     
