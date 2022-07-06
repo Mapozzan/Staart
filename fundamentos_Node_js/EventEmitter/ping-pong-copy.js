@@ -1,4 +1,4 @@
-
+const { error } = require('console')
 const { EventEmitter} = require('events')
 
 const pingpongServer = () => {
